@@ -1,0 +1,8 @@
+#!name=yigemuhan
+#!desc=yigemuhan
+
+[Script]
+yigemuhan = type=http-response, pattern=https://uapi.woobx.cn/user/profile, script-path=https://raw.githubusercontent.com/Kinmokuseii/Script/main/js/yigemuhan.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% uapi.woobx.cn
