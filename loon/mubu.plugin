@@ -1,6 +1,6 @@
 #!name=幕布
 #!desc=解锁终身
-#!icon=https://github.com/Kinmokuseii/Kinmokuseii/blob/main/image/mubu.jpg
+#!icon=https://raw.githubusercontent.com/Kinmokuseii/Kinmokuseii/main/image/mubu.jpg
 
 [Script]
 http-response https://api2.mubu.com/v3/api/user/current_user script-path=https://raw.githubusercontent.com/Kinmokuseii/Script/main/js/mubu.js, requires-body=true, timeout=60, tag=mubu
